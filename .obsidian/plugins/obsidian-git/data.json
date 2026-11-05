@@ -9,7 +9,7 @@
   "autoPullOnBoot": true,
   "autoCommitGlobMode": "exclude",
   "autoCommitGlobs": "",
-  "disablePush": false,
+  "disablePush": true,
   "pullBeforePush": true,
   "squashCommitsBeforePush": false,
   "disablePopups": false,

@@ -1,5 +1,7 @@
 {
-  "accentColor": "#493df5",
+  "accentColor": "#e1a1e2",
   "theme": "obsidian",
-  "cssTheme": "Blue Topaz"
+  "cssTheme": "Blue Topaz",
+  "interfaceFontFamily": "Microsoft PhagsPa",
+  "textFontFamily": ""
 }
