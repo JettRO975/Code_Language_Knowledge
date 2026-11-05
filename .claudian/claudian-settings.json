@@ -1,8 +1,8 @@
 {
   "userName": "",
-  "permissionMode": "normal",
+  "permissionMode": "auto",
   "model": "haiku",
-  "effortLevel": "high",
+  "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationLocale": "",
@@ -26,7 +26,7 @@
         "device-b3a413131150743a2cc9b4551758f7a17481db8759154a1316446427fcea5f81": "native-windows"
       },
       "wslDistroOverridesByHost": {},
-      "enabled": false,
+      "enabled": true,
       "outputStyle": null,
       "promptSuggestions": false,
       "discoveredOutputStyles": [
@@ -40,12 +40,44 @@
       "cliPathsByHost": {},
       "loadUserSettings": true,
       "enableChrome": false,
-      "visibleModels": [],
+      "visibleModels": [
+        "opus",
+        "fable"
+      ],
       "modelAliases": {},
       "environmentVariables": "",
       "environmentHash": "",
       "sessionEnvironmentHash": "",
-      "selectedModels": []
+      "selectedModels": [
+        {
+          "value": "opus",
+          "label": "deepseek-flash",
+          "description": "Custom Opus model (1M context)",
+          "resolvedModel": "deepseek-flash[1M]",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "fable",
+          "label": "deepseek-flash",
+          "description": "Custom Fable model",
+          "resolvedModel": "deepseek-flash[1M]",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        }
+      ]
     },
     "codex": {
       "enabled": false,
@@ -70,7 +102,7 @@
         "device-b3a413131150743a2cc9b4551758f7a17481db8759154a1316446427fcea5f81": "native-windows"
       },
       "wslDistroOverridesByHost": {},
-      "enabled": true,
+      "enabled": false,
       "codeMode": false,
       "presetPlugins": "",
       "cliPath": "",
@@ -131,7 +163,7 @@
       "selectedModels": []
     }
   },
-  "settingsProvider": "deepseek",
+  "settingsProvider": "claude",
   "lastSelectedChatModel": null,
   "inlineEditModel": null,
   "savedProviderModel": {},
